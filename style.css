@@ -3,6 +3,10 @@ body {
   margin: 0;
   padding: 0;
   background-color: #000;
+  background-image: url('weboflight.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   font-family: 'Inter', sans-serif;
   color: rgba(255, 255, 255, 0.88);
   font-size: 18px;
