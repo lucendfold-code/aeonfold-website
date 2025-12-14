@@ -1,0 +1,32 @@
+/* === AEON FOLD LANDING PAGE STYLE UPDATE === */
+
+/* Import JetBrains Mono from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+body {
+  background-color: #0c0c0f; /* Deep grey-black as seen in Gate prototype */
+  font-family: 'JetBrains Mono', monospace;
+  color: #c0c0c2; /* Subtle soft grey body text */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #e0e0e3; /* Bright neutral for headings */
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+p, span, li {
+  color: #c0c0c2;
+  line-height: 1.6;
+}
+
+a {
+  color: #e0e0e3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
