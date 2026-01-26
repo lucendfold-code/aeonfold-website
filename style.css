@@ -18,14 +18,14 @@ body {
 h1 {
   font-size: 2.5rem;
   margin-bottom: 2rem;
-  color: #a8bfa1; /* pale green */
+  color: #7f8f82; /* subtle grey-green */
   text-align: center;
   letter-spacing: 0.1em;
 }
 
 h2 {
   margin-top: 60px;
-  color: #a8bfa1;
+  color: #7f8f82;
   font-size: 1.6rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -34,7 +34,7 @@ h2 {
 h3 {
   font-size: 1.3rem;
   margin-bottom: 1.5rem;
-  color: #a8bfa1;
+  color: #7f8f82;
   font-style: italic;
 }
 
@@ -49,10 +49,10 @@ hr {
 }
 
 blockquote {
-  border-left: 3px solid #a8bfa1;
+  border-left: 3px solid #7f8f82;
   padding-left: 1rem;
   margin: 1.5rem 0;
-  color: #a8bfa1;
+  color: #7f8f82;
   font-style: italic;
 }
 
@@ -60,5 +60,5 @@ blockquote {
   margin-top: 2rem;
   font-weight: bold;
   text-align: right;
-  color: #a8bfa1;
+  color: #7f8f82;
 }
