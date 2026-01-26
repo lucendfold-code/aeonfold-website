@@ -1,80 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap');
 
 body {
-  background-color: #111;
-  color: #e0e0e0;
-  font-family: 'JetBrains Mono', monospace;
-  line-height: 1.7;
-  margin: 0;
-  padding: 0;
+    background-color: #111;
+    color: #ddd;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 16px;
+    line-height: 1.75;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 80px 20px 60px;
-  text-align: left;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: left;
 }
 
 h1 {
-  font-size: 2.6em;
-  text-align: center;
-  margin-bottom: 60px;
-  color: #f0f0f0;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-align: center;
+    margin-bottom: 2em;
 }
 
-h2, h3 {
-  font-weight: 600;
-  margin-top: 60px;
-  margin-bottom: 20px;
-  font-style: italic;
-  color: #e0e0e0;
-}
-
-h2 {
-  font-size: 1.2em;
-}
-
-p {
-  margin: 20px 0;
-  white-space: pre-line;
-}
-
-strong {
-  font-weight: bold;
-  color: #f0f0f0;
+.module-title {
+    font-size: 1.25em;
+    font-weight: 600;
+    font-style: italic;
+    color: #ffffff;
+    margin-top: 80px;
+    margin-bottom: 30px;
 }
 
 hr {
-  border: none;
-  border-top: 1px solid #444;
-  margin: 50px 0 60px;
+    border: none;
+    border-top: 1px solid #444;
+    margin: 60px 0;
 }
 
-blockquote {
-  border-left: 2px solid #444;
-  padding-left: 20px;
-  margin: 30px 0;
-  font-style: italic;
-  color: #d0d0d0;
+strong {
+    font-weight: 700;
+}
+
+em {
+    font-style: italic;
 }
 
 a {
-  color: #f0f0f0;
-  text-decoration: none;
-  font-weight: bold;
+    color: #7c9eff;
+    text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .footer {
-  margin-top: 60px;
-  font-weight: bold;
+    margin-top: 60px;
+    font-size: 0.9em;
+    text-align: left;
+}
+
+.footer a {
+    font-weight: 700;
 }
 
 .footer span {
-  font-weight: normal;
-  color: #ccc;
+    font-weight: 400;
+    margin: 0 0.3em;
+}
+
+blockquote {
+    margin-left: 1em;
+    padding-left: 1em;
+    border-left: 2px solid #444;
+    font-style: italic;
+    color: #aaa;
 }
