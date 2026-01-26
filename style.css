@@ -1,67 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
+/* Global Body */
 body {
+  background-color: #111;      /* deep dark background */
+  color: #e0e0e0;              /* light neutral text */
   font-family: 'JetBrains Mono', monospace;
-  background-color: #111111;
-  color: #e0e0e0;
   margin: 0;
   padding: 0;
+  line-height: 1.6;
 }
 
+/* Page Container */
 .container {
-  max-width: 800px; 
+  max-width: 720px;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 30px 20px;
 }
 
+/* Main Title */
 h1 {
   font-size: 2.4rem;
-  color: #e0e0e0;
+  margin-bottom: 30px;
   text-align: center;
-  margin-bottom: 60px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  color: #e0e0e0;
+  letter-spacing: 0.1em;
 }
 
+/* Individual Module */
 .fractal-module {
-  margin-bottom: 80px;
-  border-bottom: 1px solid #4e5136;
-  padding-bottom: 40px;
+  padding-bottom: 30px;              /* space below module */
+  margin-bottom: 50px;               /* space before next module */
+  border-bottom: 1px solid #4e5136;  /* subtle khaki‑green divider */
 }
 
+/* Module Titles */
 h2 {
-  font-size: 1.2rem;
-  color: #4e5136;
+  font-size: 1.5rem;
+  margin: 0 0 10px 0;
+  color: #4e5136;           /* khaki‑green accent */
   text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-top: 0;
-  margin-bottom: 10px;
+  letter-spacing: 0.05em;
 }
 
+/* Subtitles */
 h3 {
-  font-size: 1.6rem;
-  color: #ffffff;
-  font-weight: 400;
-  margin-top: 0;
-  margin-bottom: 20px;
-}
-
-p {
-  line-height: 1.7;
-  margin-bottom: 20px;
-}
-
-blockquote {
+  font-size: 1.2rem;
+  margin: 0 0 15px 0;
+  color: #b0b0b0;            /* softer “comment” tone */
   font-style: italic;
-  color: #c2c2c2;
-  margin: 20px 0;
-  padding-left: 20px;
-  border-left: 2px solid #4e5136;
 }
 
+/* Paragraphs */
+p {
+  margin-bottom: 1.2em;
+  color: #dcdcdc;
+  font-size: 1rem;
+}
+
+/* Horizontal Rule */
+hr {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 1.8rem 0;
+  opacity: 0.4;
+}
+
+/* Blockquotes */
+blockquote {
+  margin: 1.3rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid #4e5136;
+  color: #c4c4c4;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+/* Next Link / After Text */
 .next-module {
+  display: block;
   text-align: right;
+  margin-top: 1.4rem;
   font-size: 0.95rem;
-  color: #888888;
-  margin-top: 30px;
+  color: #aaa;
 }
