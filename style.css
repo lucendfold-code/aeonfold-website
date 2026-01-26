@@ -1,66 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
-/* Base Styles */
 body {
-  background-color: #121212;
-  color: #e0e0e0;
+  background-color: #1c1c1c;
+  color: #e4e4e4;
   font-family: 'JetBrains Mono', monospace;
-  line-height: 1.6;
-  padding: 1em;
   margin: 0;
+  padding: 0;
+  line-height: 1.6;
 }
 
 .container {
-  max-width: 700px;
-  margin: auto;
-  padding: 2em 1em;
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 20px;
 }
 
 h1 {
-  font-size: 2.2em;
-  margin-bottom: 1em;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #d4af37; /* military tan */
   text-align: center;
+  letter-spacing: 0.1em;
 }
 
 h2 {
-  font-size: 1.6em;
-  margin-top: 2em;
-  color: #f4f4f4;
+  margin-top: 60px;
+  color: #d4af37;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 h3 {
-  font-size: 1.2em;
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  color: #d4af37;
   font-style: italic;
-  color: #cccccc;
 }
 
 p {
-  margin-bottom: 1.2em;
-}
-
-strong {
-  color: #f7c873;
+  margin-bottom: 1.4rem;
 }
 
 hr {
   border: none;
-  border-top: 1px solid #888;
-  margin: 2em 0;
-  opacity: 0.3;
+  border-top: 1px solid #333;
+  margin: 2rem 0;
 }
 
 blockquote {
-  margin: 1.5em 0;
-  padding-left: 1em;
-  border-left: 2px solid #777;
+  border-left: 3px solid #d4af37;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  color: #d4af37;
   font-style: italic;
-  color: #ccc;
 }
 
 .next-module {
-  margin-top: 2em;
+  margin-top: 2rem;
   font-weight: bold;
-  font-style: italic;
   text-align: right;
-  color: #f7c873;
+  color: #d4af37;
 }
