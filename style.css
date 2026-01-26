@@ -1,44 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
+/* Base Styles */
 body {
-  background-color: #1a1a1a;
-  color: #f2f2f2;
+  background-color: #121212;
+  color: #e0e0e0;
   font-family: 'JetBrains Mono', monospace;
   line-height: 1.6;
-  margin: 40px;
+  padding: 1em;
+  margin: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 2em 1em;
+}
+
+h1 {
+  font-size: 2.2em;
+  margin-bottom: 1em;
+  text-align: center;
 }
 
 h2 {
-  font-size: 2em;
-  margin-top: 1em;
+  font-size: 1.6em;
+  margin-top: 2em;
+  color: #f4f4f4;
 }
 
 h3 {
-  font-size: 1.5em;
-  margin-top: 0.6em;
-  color: #e0dcdc;
+  font-size: 1.2em;
+  font-style: italic;
+  color: #cccccc;
 }
 
 p {
-  margin: 1em 0;
+  margin-bottom: 1.2em;
 }
 
-blockquote {
-  margin: 1.2em 2em;
-  padding-left: 1em;
-  border-left: 3px solid #444;
-  font-style: italic;
-  color: #ccc;
+strong {
+  color: #f7c873;
 }
 
 hr {
-  border: 0;
-  height: 1px;
-  background: #444;
+  border: none;
+  border-top: 1px solid #888;
   margin: 2em 0;
+  opacity: 0.3;
+}
+
+blockquote {
+  margin: 1.5em 0;
+  padding-left: 1em;
+  border-left: 2px solid #777;
+  font-style: italic;
+  color: #ccc;
 }
 
 .next-module {
   margin-top: 2em;
   font-weight: bold;
+  font-style: italic;
+  text-align: right;
+  color: #f7c873;
 }
