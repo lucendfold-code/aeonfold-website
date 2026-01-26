@@ -6,7 +6,7 @@ body {
   color: #e0e0e0;              /* light neutral text */
   font-family: 'JetBrains Mono', monospace;
   margin: 0;
-  padding: 0;
+  padding: 0; 
   line-height: 1.6;
 }
 
